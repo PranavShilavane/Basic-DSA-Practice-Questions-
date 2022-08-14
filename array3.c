@@ -18,10 +18,10 @@ Last index of  1 in given string is 4.
 #include <string.h>
 int main()
 {
-    char ch[] = "1000";
+    char S[] = "1000";
 
-    for (int i = strlen(ch) - 1; i >= 0; i--)
-        if (ch[i] == '1')
+    for (int i = strlen(S) - 1; i >= 0; i--)
+        if (S[i] == '1')
         {
             printf("%d", i);
             return 0;
